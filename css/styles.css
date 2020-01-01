@@ -1,0 +1,174 @@
+body {
+  font-family: 'Montserrat';
+}
+
+#title {
+  background-color: #ff4c68;
+  color: white;
+}
+
+h1 {
+  font-family: 'Montserrat';
+  font-weight: 900;
+  font-size: 3.25rem;
+  line-height: 1.5;
+}
+
+h2 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+h3 {
+  font-family: "Montserrat";
+  font-size: 1.5rem;
+  font-weight: 700;
+}
+
+p {
+  color: #8f8f8f;
+}
+
+.container-fluid {
+  padding: 3% 15%;
+}
+
+/* navigation bar */
+.navbar-brand {
+  font-family: 'Ubuntu';
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar-item {
+  padding: 0 1rem;
+}
+
+.nav-link {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+.navbar {
+  padding-left: 0;
+  padding-bottom: 4rem;
+}
+
+/* Download Buttons */
+.download-button {
+  margin: 5% 3% 15% 0;
+}
+
+/* mockup image */
+.mockup {
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30px;
+}
+
+/* features */
+#features {
+  text-align: center;
+  padding: 0 15% 5rem;
+  background-color: white;
+  position: relative;
+  z-index: 1;
+}
+
+.feature-icon {
+  color: #ef7182;
+  transform: scale(2.5);
+  padding: 5rem 0 3rem;
+}
+
+.feature-icon:hover {
+  color: #ff4c68;
+}
+
+/* testimonial section */
+#testimonials {
+  text-align: center;
+  background-color: #ef7182;
+  color: #fff;
+  /* position: relative;
+  top: -150px; */
+}
+
+.testimonial-image {
+  width: 15%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  text-align: center;
+  background-color: #ef7182;
+  padding-bottom: 3%;
+}
+
+.press-logo {
+  width: 15%;
+  margin: 20px 20px;
+}
+
+/* pricing */
+#pricing {
+  padding: 100px;
+  text-align: center;
+}
+
+.pricing-column {
+  padding: 3% 2%;
+}
+
+/* Call to Action */
+#cta{
+  padding-top: 7rem;
+  background-color: #ff4c68;
+  text-align: center;
+}
+
+.cta{
+  font-family: "Montserrat";
+  font-weight: 900;
+  color: white;
+  font-size: 3rem;
+}
+
+/* footer */
+#footer{
+  text-align: center;
+  margin: 5rem;
+}
+
+.footer-icon{
+  padding: 0 1rem 2rem;
+}
+
+.footer-icon:hover{
+  color: #ff4c68;
+}
+
+
+
+
+/* mobile responsiveness */
+@media (max-width: 1187px) {
+  #title {
+    text-align: center;
+  }
+}
+
+@media (max-width: 990px) {
+  .mockup {
+    position: static;
+    transform: rotate(0);
+  }
+}
